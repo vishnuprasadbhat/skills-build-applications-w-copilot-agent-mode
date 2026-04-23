@@ -70,7 +70,7 @@ function App() {
                   Use the menu to browse Activities, Leaderboard, Teams, Users, and Workouts from the backend API.
                 </p>
                 <p>
-                  The frontend uses Bootstrap for tables, cards, buttons, links, forms, and modals in a consistent layout.
+                  This React frontend demonstrates how to fetch and display data from a REST API using Bootstrap for styling. Each section includes search and refresh functionality for an interactive experience.
                 </p>
                     <NavLink className="btn btn-primary btn-lg me-2" to="/activities">
                   View Activities
