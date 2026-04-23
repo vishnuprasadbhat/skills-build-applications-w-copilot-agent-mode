@@ -4,7 +4,7 @@ const getApiBaseUrl = () => {
   const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
   if (codespaceName) {
     const url = `https://${codespaceName}-8000.app.github.dev`;
-    console.log('[Teams] Using codespace API base URL:', url);
+    console.log('[Teams] API endpoint: https://' + codespaceName + '-8000.app.github.dev/api/teams');
     return url;
   }
   console.log('[Teams] Using local API base URL: http://localhost:8000');
