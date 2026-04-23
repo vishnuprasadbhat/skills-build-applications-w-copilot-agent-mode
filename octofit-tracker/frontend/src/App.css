@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(180deg, #eaf4ff 0%, #f3f8ff 40%, #ffffff 100%);
+  color: #1b2735;
+  min-height: 100vh;
+}
+
+.header-navbar {
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.app-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+.header-navbar .navbar-brand,
+.header-navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.header-navbar .nav-link {
+  opacity: 0.95;
+}
+
+.header-navbar .nav-link.active,
+.header-navbar .nav-link:hover {
+  color: #ffdd57 !important;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.header-navbar .navbar-toggler-icon {
+  filter: brightness(120%) invert(0.9);
+}
+
+.card {
+  border-radius: 1.2rem;
+  border: 1px solid rgba(13, 110, 253, 0.12);
+}
+
+.card-header {
+  background-color: rgba(13, 110, 253, 0.08);
+  border-bottom: 1px solid rgba(13, 110, 253, 0.13);
+}
+
+.card-title,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #102a43;
+}
+
+.card-body p,
+.card-body .lead,
+.text-muted {
+  color: #324a5f;
+}
+
+.table {
+  background-color: #ffffff;
+}
+
+.table thead th {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.08);
+}
+
+.table-responsive {
+  box-shadow: 0 0.6rem 1.2rem rgba(15, 23, 42, 0.06);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-outline-primary,
+.btn-outline-secondary {
+  border-radius: 999px;
+  padding: 0.75rem 1.3rem;
+}
+
+.btn-primary {
+  background-color: #2f80ed;
+  border-color: #2f80ed;
+}
+
+.btn-primary:hover {
+  background-color: #1b6fe7;
+  border-color: #195fd9;
+}
+
+.btn-secondary {
+  background-color: #64748b;
+  border-color: #64748b;
+}
+
+.btn-secondary:hover {
+  background-color: #52606d;
+  border-color: #495669;
+}
+
+.card-header h2,
+.card-header h3,
+.card-header h4 {
+  margin-bottom: 0.4rem;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+a {
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+footer,
+small {
+  color: #52606d;
+}
